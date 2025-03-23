@@ -5,8 +5,13 @@ A project using stability api to generate text to image and save and showcase it
 1. Frontend - *Vite using JS*
 2. Backend - *nodeJS*
 3. DB -
-    - multimedia- cloudinary
-    - data - mongodb
+    - multimedia- *cloudinary*
+    - data - *mongodb*
+4. Text-to-image - *Stability API*
+5. Deployment -
+    - backend - *render*
+    - frontend - *vercel*
+
 
 ## Project Setup
 1. Frontend
