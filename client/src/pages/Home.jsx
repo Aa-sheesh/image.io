@@ -20,7 +20,7 @@ function Home() {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const response = await fetch("https://image-io-tdc9.onrender.com", {
+        const response = await fetch("https://image-io-tdc9.onrender.com/api/v1/post", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
